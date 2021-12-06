@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Counter App</string>
+    <string name="btn_name_increment">+1</string>
+    <string name="btn_name_decrement">-1</string>
+</resources>
