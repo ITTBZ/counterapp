@@ -27,14 +27,14 @@ public class MainActivity extends AppCompatActivity {
         btnIncrement.setOnClickListener(v -> {
             this.currentCount++;
             updateView(currentCount);
-            Toast.makeText(this, "Added 1", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Added 1", Toast.LENGTH_SHORT).show();
         });
 
         btnDecrement.setOnClickListener(v -> {
             if(currentCount == 0) return;
             this.currentCount--;
             updateView(currentCount);
-            Toast.makeText(this, "Removed 1", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(this, "Removed 1", Toast.LENGTH_SHORT).show();
         });
 
         updateView(currentCount);
